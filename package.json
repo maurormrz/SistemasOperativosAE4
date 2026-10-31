@@ -1,0 +1,25 @@
+{
+  "name": "sistemasoperativosae4",
+  "version": "1.0.0",
+  "description": "Análisis Comparativo y Simulación de un Componente Clave en un Sistema Operativo Moderno Formato de código: .zip o .rar con el proyecto completo y un README con instrucciones de ejecución.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurormrz/SistemasOperativosAE4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/maurormrz/SistemasOperativosAE4/issues"
+  },
+  "homepage": "https://github.com/maurormrz/SistemasOperativosAE4#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
