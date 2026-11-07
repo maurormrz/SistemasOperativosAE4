@@ -4,8 +4,9 @@
   "description": "Análisis Comparativo y Simulación de un Componente Clave en un Sistema Operativo Moderno Formato de código: .zip o .rar con el proyecto completo y un README con instrucciones de ejecución.",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/index.ts",
-    "test": "jest"
+  "dev": "ts-node src/index.ts",
+  "web": "ts-node src/server.ts",
+  "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,10 @@
   },
   "homepage": "https://github.com/maurormrz/SistemasOperativosAE4#readme",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/node": "^26.6.6",
+    "express": "^5.3.0",
     "jest": "^30.5.2",
     "ts-jest": "^29.4.15",
     "ts-node": "^10.9.2",
