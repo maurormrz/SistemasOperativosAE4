@@ -4,7 +4,8 @@
   "description": "Análisis Comparativo y Simulación de un Componente Clave en un Sistema Operativo Moderno Formato de código: .zip o .rar con el proyecto completo y un README con instrucciones de ejecución.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node src/index.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,7 @@
     "@types/node": "^26.6.6",
     "jest": "^30.5.2",
     "ts-jest": "^29.4.15",
-    "typescript": "^7.0.2",
+    "typescript": "^5.3.3",
     "vitest": "^5.0.5"
   }
 }
