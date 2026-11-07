@@ -1,9 +1,12 @@
 import * as readline from 'readline/promises';
-import { stdin as input, stdout as output } from 'process';
 import { SimuladorDisco } from '../models/SimuladorDisco';
 
 export async function iniciarMenu() {
-  const rl = readline.createInterface({ input, output });
+  const rl = readline.createInterface({
+    input: process.stdin as any,
+    output: process.stdout as any,
+  });
+
   const disco = new SimuladorDisco(16); // Disco de 16 bloques ideal para pruebas rápidas
 
   let salir = false;
